@@ -10,7 +10,17 @@ Golang
 * Infra tools like DOCKER, KUBERNETES, DGRAPH and  COCKROACH DB made up of Golang.
 * Go supports for CONCURRENCY, which is ability to run multipule tasks simultaneously.
 * CONCURRENCY is achieved in Go through the use of GOROUTINES and CHANNELS.
-* &nbsp;MISSING 
+* &nbsp;MISSING  ->"TRY and CATCH" missing we never need in this language.
+
+&nbsp;            -> "LEXER" done the lot of work. In the end of the every line we don't want to put the SEMICOLAN ';' but according to the golang documentation must put the                      SEMIOCOLAN but lexer done that job.
+
+
+
+* Programs are ASSEMBLED by using the PACKAGES, for efficient management of the dependencies.
+* Supports environment adopting patterns like to DYNAMIC.
+* FEATURES ->
+
+
 
 
 
