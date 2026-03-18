@@ -18,8 +18,12 @@ Golang
 
 * Programs are ASSEMBLED by using the PACKAGES, for efficient management of the dependencies.
 * Supports environment adopting patterns like to DYNAMIC.
-* FEATURES ->
-
+* FEATURES -> 1.Garbage Collection
+              2.Fast Compilation
+              3.Cross Platform Support
+              4.Built in TESTING Support
+              5.Type safety
+* 
 
 
 
