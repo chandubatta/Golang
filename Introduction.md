@@ -27,4 +27,16 @@ Golang
 
 
 
+DEBUGGING in GOLANG
+--------------------------
+
+🔹 Simple Summary
+Action	Key
+Next line	            F10
+Inside function	        F11
+Exit function	        Shift + F11
+Continue	            F5
+
+
+
 
