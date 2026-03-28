@@ -43,7 +43,7 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	Write_File(data_01)
+	Write_File(data_01) // Using this function we can write append the content in another file
 
 }
 func FileHandling() {
@@ -101,7 +101,7 @@ func Write_File(a []byte) {
 
 						| Value | Meaning                                    |
 		                | ----- | ------------------------------------------ |
-		                | 0777  | Everyone can read/write/execute (not safe) |
+		                | 0777  | Everyone can read/wxecurite/ete (not safe) |
 		                  0755  | Owner full, others read + execute          |
 		                | 0600  | Only owner can read/write (secure 🔐)      |
 
