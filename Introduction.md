@@ -1,7 +1,12 @@
 Golang
 
+Golang : The language itself was written in GO.
 
-
+INTRODUCTION
+-------------------
+* Go version V1.25 (Aug/2025), latest Go V1.26 (Feb,2026).
+* For learn Golang Boot.dev's
+* The program is saved with .go extension and it is a UTF-8 text file.
 * Go language is a STATICALLY typed COMPILER based programming language.
 * It is the COMBINATION of C++ and Python. Python is a simple Syntax and C++ is a faster language.
 * GO tool can RUN directly, Without VIRTUAL MACHINE.(like JVM)
@@ -23,6 +28,8 @@ Golang
               3.Cross Platform Support
               4.Built in TESTING Support
               5.Type safety
+              6.Automatic Memory Management
+              7.Concurrency
 * 
 
 
@@ -37,6 +44,14 @@ Inside function	        F11
 Exit function	        Shift + F11
 Continue	            F5
 
+
+KEY WORDS in GOLANG
+---------------------
+1. struct   6. float     11. Continue   16. main     21. type    26. goto       31. fallthrough
+2. for      7. byte      12. switch     17. select   22. func    27. map        32. default
+3. if       8. rune      13. defer      18. go       23. case    28. range
+4. else     9. complex   14. package    19. chan     24. const   29. return
+5. int      10. break    15. import     20. uint     25. var     30. interface
 
 
 
