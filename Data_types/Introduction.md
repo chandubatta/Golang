@@ -1,8 +1,4 @@
-VARIABLES and DATA TYPES
-
-VARIABLES
-* Variables are used to store a Values, like a containers for the values.
-* Give the Variable NAME and REFERENCE every where in the application.
+DATA TYPES
 
 DATA TYPES
 * Specific the type of the data that valid GO VARIABLE can hold.
