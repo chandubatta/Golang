@@ -11,6 +11,10 @@ func main() {
 	fmt.Println(str)
 	fmt.Println(len(str))
 	fmt.Println("\U0001F60A") //for this symbol
+	s:= "Hello, Chandu"
+	for i, v:= range s{
+		fmt.Println("%d %U %c",)
+	}
 	/*
 		length of the str is 6
 			✔ Why 6?
@@ -23,6 +27,22 @@ func main() {
 
 // working with RUNE data type
 /*
+ 1. What is a rune?
+
+A rune in Go is an alias for int32 and represents a Unicode code point.
+
+Why it exists:
+Go strings are UTF-8 encoded, meaning characters can be 1 to 4 bytes long.
+A rune lets you work with actual characters instead of raw bytes.
+When to use it:
+When handling non-ASCII text (e.g., emojis, accented characters, Asian scripts)
+When iterating over characters safely
+When performing text processing, validation, or transformation
+
+👉 Think of it like this:
+
+byte → raw data (1 byte)
+rune → a full character (Unicode-aware)
 🔹 What is rune in Go?
 
 👉 rune is just an alias for:
