@@ -14,7 +14,7 @@ Packages List
 7.  os
 8.  time
 9.  math
-10. io        // io and io/ioutil both pkg used for working with files
+10. io        // 'io' and 'io/ioutil' both pkg used for working with files
 11. io/ioutil (not there this pkg after Go Veresion 1.16) // now only 'io' is the package
 12. Sync
 13. net/url
