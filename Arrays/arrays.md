@@ -1,0 +1,1 @@
+* In the Golang Mostly using SLICES not Arrays. Some times only using the Arrays.
