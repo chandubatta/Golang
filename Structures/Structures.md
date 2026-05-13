@@ -1,0 +1,1 @@
+Structs are alternative vesion of golang.
