@@ -54,4 +54,11 @@ KEY WORDS in GOLANG
 5. int      10. break    15. import     20. uint     25. var     30. interface
 
 
+SOME IMPORTANT FUNCTIONS (Built in functions)
+----------------------------------------------
+1. make     2. new      3. len      4. cap      5.  append      6.  copy
+7. close    8. delete   9. complex  10.real     11. imag        12. panic
+13. recover
+
+
 
