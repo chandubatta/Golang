@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	fmt.Println("Pointers in the Golang")
-	var name string
+	//var name string
 
 	//Creating Pointer type Variable
 	var ptr *int

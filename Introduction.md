@@ -42,8 +42,9 @@ Action	Key
 Next line	            F10
 Inside function	        F11
 Exit function	        Shift + F11
-Continue	            F5
-
+Start/Continue	        F5
+Restart                 Shift + F12
+Stop Debugging          Shift + F5
 
 KEY WORDS in GOLANG
 ---------------------
@@ -60,5 +61,7 @@ SOME IMPORTANT FUNCTIONS (Built in functions)
 7. close    8. delete   9. complex  10.real     11. imag        12. panic
 13. recover
 
+Operators using in this language
+-----------------------------------
 
 
