@@ -52,4 +52,79 @@ func CallFuncWithResultParameter(){
 }
 
 
+//Name result parameters- Mostly used for the improving the readability of your function definition
+func NameResultParam()(x,y int){
+	//x=0,y=0
+	return // 0, 0
 
+	x= 10
+	return //10,0
+
+	return 1, 2
+}
+
+//Name result parameters- Mostly used for the improving the readability of your function definition
+type Gogo interface{
+	MyFunc()(x,y int)
+}
+
+////////////////////////////////////////////////////
+// Function as Types
+///////////////////////////////////////////////////
+//We are passing the function as a 'Input Parameter' and 'Result Parameter'
+func FunctionParam(f func(i int) int) func(s string) string{
+	...
+}
+
+double_01:= func(i int)int{
+			return i*2
+		}
+
+func CallFuncWithFunctionParam(){
+//we can call a 'function' with 'function parameter' 3 ways
+        //1st way is an 'inline' anonimous function
+		f1:= FunctionParam(func(i int) int{
+			return i++
+		})
+
+		//2nd way
+		double:= func(i int)int{
+			return i*2
+		}
+		f2:= FunctionParam(double)
+
+		//3rd way
+		f3:= FunctionParam(double_01)
+
+}
+
+
+////////////////////////////////////////////////////
+// Generics in Functions
+///////////////////////////////////////////////////
+//Go Supports Generics in the Function Definitions, We specified in the [] Square brackets
+
+func Min[T cmp.Ordered] (a,b T) T{
+	if a<b{
+		return a
+	} 
+	return b
+}
+
+func [a,b any] (a A,b B) (A,B) {
+	return a, b
+}
+
+
+////////////////////////////////////////////////////
+// Custom Cconstraints
+///////////////////////////////////////////////////
+func Add[N Number] (x,y N) N {
+	return x+y
+}
+
+type Number interface{
+	~int | ~float64
+}
+
+type MyType int
