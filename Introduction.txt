@@ -7,7 +7,7 @@ Go developed by GOOGLE in 2007 and made OPEANSOURCE with GO V1.0 in 2009.
 Executables are different for OS. (If you developed one application, that application different file for OS to OS). Same application LINUX for different file and WINDOWS for the different file similarly MAC.
 Infra tools like DOCKER, KUBERNETES, DGRAPH and  COCKROACH DB made up of Golang.
 
-----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 IMPORTANT PROMPTS For Learning programming
 
 a. I want to learn [X]. Please create a comprehensive study plan following the 80-20 rule, focusing on the core 20% of concepts that will allow me to start building projects. The plan should be structured week by week for [Y] weeks, with each week covering specific topics.
