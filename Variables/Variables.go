@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"golang_concepts/variables"
+)
 
 func main() {
 	// Explicit declaration with var
@@ -38,6 +41,10 @@ func main() {
 	var c5 rune
 	fmt.Printf("User iput value %v and type %T \n", c5, c5)
 	var c6 uintptr
-	fmt.Printf("User iput value %v and type %T \n", c6,c6)
+	fmt.Printf("User iput value %v and type %T \n", c6, c6)
+
+	//function calling
+	variables.Variables_01()
+	variables.Variables_2()
 
 }

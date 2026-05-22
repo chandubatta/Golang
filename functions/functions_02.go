@@ -111,14 +111,18 @@ func Min[T cmp.Ordered] (a,b T) T{
 	return b
 }
 
-func [a,b any] (a A,b B) (A,B) {
+func [A,B any] (a A,b B) (A,B) {
 	return a, b
 }
 
 
 ////////////////////////////////////////////////////
-// Custom Cconstraints
+// Custom Constraints
 ///////////////////////////////////////////////////
+//func Add(x,y int/fliat64)int/fliat64{      // Don't do this like, for the reference declare this like.
+//	....
+//}
+
 func Add[N Number] (x,y N) N {
 	return x+y
 }
@@ -128,3 +132,77 @@ type Number interface{
 }
 
 type MyType int
+
+
+func CallGenerics(){
+	//Normal
+	x:=Add(1,2)
+
+	//Explicitly
+	y:=Add[int](1,2)
+}
+
+
+////////////////////////////////////////////////////
+// Methods
+///////////////////////////////////////////////////
+type MyType struct{}
+
+	
+func (t MyType) MyMethod(){
+	...
+}
+
+func CallMethod(){
+	m:= MyType{}
+	m.MyMethod
+}
+
+
+////////////////////////////////////////////////////
+// Deferring Function Execution
+///////////////////////////////////////////////////
+func Deferring(){
+	defer fmt.Println("Printls Last")
+	defer fmt.Println("Printls Second")
+	fmt.Println("Printls First")
+}
+
+
+
+////////////////////////////////////////////////////
+// Defer Gotcha
+///////////////////////////////////////////////////
+func DeferGGotcha(){
+	var e error // nil
+	// defer func (err error){      //Eanonimous Error
+	// 	if err != nil{
+	// 		fmt.Println(err)
+	// 	}
+	// }(e) //This is Pattern used a ton in go
+
+	defer func (){      //This anotheway of writing Up side Eanonimous Error
+		if e != nil{
+			fmt.Println(e)
+		}
+	}() //This is Pattern used a ton in go
+
+	val, ok := TrySomething()
+	if  !ok {
+		e = errors.New(Something Broken)
+	}
+
+}
+
+////////////////////////////////////////////////////
+// Modify Return in Defer
+///////////////////////////////////////////////////
+
+//Return 11
+func DeferModifiedReturn()x int{
+	defer func (){
+		x ++
+	}()
+
+	return 10
+}

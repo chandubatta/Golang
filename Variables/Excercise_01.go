@@ -4,11 +4,11 @@ Write a Go program that stores a temperature in Celsius as a variable and conver
  storing the result in a second variable. Print both values with clear labels.
 */
 
-package main
+package variables
 
 import "fmt"
 
-func main() {
+func Variables_01() {
 	// Step 1: Store the temperature in Celsius
 	var celsius float64 = 100.0
 

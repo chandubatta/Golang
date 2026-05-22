@@ -5,11 +5,11 @@ Calculate the subtotal, apply a 10% discount, and compute the final total.
 Print a formatted receipt showing each value.
 */
 
-package main
+package variables
 import (
 	"fmt"
 )
-func main(){
+func Variables_2(){
 	var item string
 	var item_price float32
 	var item_quantity int
