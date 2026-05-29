@@ -2,13 +2,20 @@ package main
 
 import (
 	"fmt"
+	//"image/color"
 	"net/http"
 
+	//fatihcolor "github.com/fatih/color"
 	"github.com/gorilla/mux"
 	//"log"
 )
 
 func main() {
+	// r1, g, b := color.CMYKToRGB(255, 0, 0, 0)
+
+	// fmt.Println(r1, g, b)
+
+	//fatihcolor.Green("Hello")
 	fmt.Print("welcome to golang")
 	gretter()
 	r := mux.NewRouter()

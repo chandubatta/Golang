@@ -1,17 +1,17 @@
-- Every Package have a Collection of Source files.
-- Each folder in your project is considered a new package.
+- Every Package have a Collection of **Source files**.
+- Each folder in your project is considered a **new package**.
 - In Go packages and folders mean the same thing.
 - Tha naming Convention for packages is to be **all lowercase letters** and "No Underscore and No hypens".
 - Naming Convention for files is to do **snake case**
 - Every Go file need a package declaraation at the top and that needs to match the *folder name*.
 - In Go anything  that starts with a ***uppercase letter***  is a public declaration that can be accessed from the outside of package.
 - In Go anything  that starts with a ***lowercase letter***  is a private declaration that can't be accessed from the outside of package.
-- ##go get github.com/fatih/color  //example package is used for different colors 
+- *go get github.com/fatih/color*  //example package is used for different colors 
 
 
 Packages List
 -----------------------------------------------------------------------
-(Mostly Using Packages)
+(Mostly Using Built in Packages)
 1.  fmt
 2.  net/http
 3.  log
