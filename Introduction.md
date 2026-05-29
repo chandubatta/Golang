@@ -34,7 +34,7 @@ INTRODUCTION
 
 
 
-DEBUGGING in GOLANG
+DEBUGGING in VS CODE
 --------------------------
 
 🔹 Simple Summary
